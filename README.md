@@ -32,7 +32,7 @@ A modern, full-stack expense tracking application that helps you manage and visu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/expense-tracker.git
+git clone https://github.com/m0hitchaudhary/expense-tracker.git
 cd expense-tracker
 ```
 
