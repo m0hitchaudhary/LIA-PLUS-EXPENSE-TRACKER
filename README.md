@@ -107,7 +107,7 @@ To run the application in development mode with hot reloading:
 ```bash
 # Terminal 1 - Backend
 cd server
-npm run dev
+node index.js
 
 # Terminal 2 - Frontend
 cd client
@@ -124,7 +124,7 @@ npm start
 
 ## Author
 
-Your Name - [Your GitHub Profile](https://github.com/yourusername)
+Your Name - [Your GitHub Profile](https://github.com/m0hitchaudhary)
 
 ## License
 
