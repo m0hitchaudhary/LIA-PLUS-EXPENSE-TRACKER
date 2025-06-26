@@ -52,8 +52,8 @@ npm install
 Create a `.env` file in the server directory:
 ```env
 PORT=5000
-MONGODB_URI=mongodb+srv://mohit:mohit123@cluster0.615klfg.mongodb.net/
-JWT_SECRET=your_jwt_secret
+MONGODB_URI='mongodb+srv://mohit:mohit123@cluster0.615klfg.mongodb.net/'
+JWT_SECRET='cdFkUxF/cqmBW6H/C+7PpHzBuqMIy0ETDOrgqWFo8E4='
 ```
 
 ## Running the Application
@@ -61,7 +61,7 @@ JWT_SECRET=your_jwt_secret
 1. Start the backend server:
 ```bash
 cd server
-node index.js
+npm run dev
 ```
 
 2. In a new terminal, start the frontend development server:
@@ -92,7 +92,20 @@ expense-tracker/
 
 ## Screenshots
 
-[Coming soon]
+![image](https://github.com/user-attachments/assets/1cb0098d-2f45-4881-a162-6399ab19d9f1)
+![image](https://github.com/user-attachments/assets/1cb0098d-2f45-4881-a162-6399ab19d9f1)
+
+![image](https://github.com/user-attachments/assets/876c1645-4d98-4b1a-88ff-835d6a447ed9)
+![image](https://github.com/user-attachments/assets/876c1645-4d98-4b1a-88ff-835d6a447ed9)
+
+![image](https://github.com/user-attachments/assets/621b4c24-fe54-4fc4-bd7e-ba7b84f68839)
+![image](https://github.com/user-attachments/assets/621b4c24-fe54-4fc4-bd7e-ba7b84f68839)
+
+![image](https://github.com/user-attachments/assets/2eaa3f8c-9269-48e7-8fcf-0e508d6cd1d6)
+![image](https://github.com/user-attachments/assets/2eaa3f8c-9269-48e7-8fcf-0e508d6cd1d6)
+
+![image](https://github.com/user-attachments/assets/be8a73db-d72c-438f-af4a-d015d17c56df)
+![image](https://github.com/user-attachments/assets/be8a73db-d72c-438f-af4a-d015d17c56df)
 
 <!-- Add your application screenshots here. Example:
 ![Dashboard](screenshots/dashboard.png)
@@ -107,7 +120,7 @@ To run the application in development mode with hot reloading:
 ```bash
 # Terminal 1 - Backend
 cd server
-node index.js
+npm run dev
 
 # Terminal 2 - Frontend
 cd client
@@ -124,7 +137,7 @@ npm start
 
 ## Author
 
-Your Name - [Mohit Chaudhary](https://github.com/m0hitchaudhary)
+[Mohit Chaudhary](https://github.com/m0hitchaudhary)
 
 ## License
 
