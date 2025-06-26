@@ -93,19 +93,16 @@ expense-tracker/
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/1cb0098d-2f45-4881-a162-6399ab19d9f1)
-![image](https://github.com/user-attachments/assets/1cb0098d-2f45-4881-a162-6399ab19d9f1)
 
-![image](https://github.com/user-attachments/assets/876c1645-4d98-4b1a-88ff-835d6a447ed9)
 ![image](https://github.com/user-attachments/assets/876c1645-4d98-4b1a-88ff-835d6a447ed9)
 
 ![image](https://github.com/user-attachments/assets/621b4c24-fe54-4fc4-bd7e-ba7b84f68839)
-![image](https://github.com/user-attachments/assets/621b4c24-fe54-4fc4-bd7e-ba7b84f68839)
 
-![image](https://github.com/user-attachments/assets/2eaa3f8c-9269-48e7-8fcf-0e508d6cd1d6)
 ![image](https://github.com/user-attachments/assets/2eaa3f8c-9269-48e7-8fcf-0e508d6cd1d6)
 
 ![image](https://github.com/user-attachments/assets/be8a73db-d72c-438f-af4a-d015d17c56df)
-![image](https://github.com/user-attachments/assets/be8a73db-d72c-438f-af4a-d015d17c56df)
+
+
 
 <!-- Add your application screenshots here. Example:
 ![Dashboard](screenshots/dashboard.png)
