@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from 'axios';
 import { Expense, ExpenseFormData } from '../types/expense';
 import { AuthResponse, LoginData, RegisterData } from '../types/auth';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'https://lia-plus-expense-tracker.onrender.com/api';
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
