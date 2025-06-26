@@ -1,5 +1,7 @@
 # Expense Tracker
 
+🚀 **Live Demo**: [lia-plus-expense-tracker.vercel.app](https://lia-plus-expense-tracker.vercel.app)
+
 A modern, full-stack expense tracking application that helps you manage and visualize your personal finances. Track your spending, categorize expenses, and gain insights through interactive charts and reports.
 
 ## Features
