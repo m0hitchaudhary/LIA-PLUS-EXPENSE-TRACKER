@@ -28,7 +28,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
           ...(mode === 'light'
             ? {
                 primary: {
-                  main: '#1976d2',
+                  main: '#2e7d32',
                 },
                 background: {
                   default: '#f5f5f5',
@@ -37,7 +37,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
               }
             : {
                 primary: {
-                  main: '#90caf9',
+                  main: '#66bb6a',
                 },
                 background: {
                   default: '#121212',

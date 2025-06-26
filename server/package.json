@@ -1,16 +1,13 @@
 {
-  "name": "server",
+  "name": "LiaPlusExpenseTracker",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Mohit Chaudhary",
   "license": "ISC",
-  "description": "",
   "type": "module",
   "dependencies": {
     "bcryptjs": "^2.4.3",

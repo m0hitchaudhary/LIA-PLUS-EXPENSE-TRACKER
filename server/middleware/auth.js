@@ -5,7 +5,7 @@ if (!process.env.JWT_SECRET) {
   console.warn('Warning: JWT_SECRET not set in environment variables. Using default secret for development.');
 }
 
-export const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
+export const JWT_SECRET = process.env.JWT_SECRET || 'cdFkUxF/cqmBW6H/C+7PpHzBuqMIy0ETDOrgqWFo8E4=';
 
 export const auth = async (req, res, next) => {
   try {

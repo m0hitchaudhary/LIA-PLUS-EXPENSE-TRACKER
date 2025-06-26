@@ -32,43 +32,80 @@ const Navigation: React.FC = () => {
   const { user, logout } = useAuth();
 
   return (
-    <AppBar position="static">
-      <Container>
-        <Toolbar sx={{ position: 'relative' }}>
-          <Typography 
-            variant="h5" 
+    <AppBar 
+      position="static" 
+      elevation={2}
+      sx={{
+        background: theme => `linear-gradient(45deg, ${theme.palette.primary.main} 30%, ${theme.palette.primary.dark} 90%)`,
+      }}
+    >
+      <Container maxWidth="lg">
+        <Toolbar 
+          sx={{ 
+            py: 1,
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center'
+          }}
+        >
+          <Box 
             sx={{ 
-              position: 'absolute',
-              left: '50%',
-              transform: 'translateX(-50%)',
-              fontWeight: 'bold'
+              display: 'flex', 
+              alignItems: 'center',
+              gap: 1
             }}
           >
-            Expense Tracker
-          </Typography>
+            <Typography 
+              variant="h5" 
+              sx={{ 
+                fontWeight: 'bold',
+                letterSpacing: '0.5px',
+                background: 'linear-gradient(45deg, #fff 30%, rgba(255,255,255,0.8) 90%)',
+                backgroundClip: 'text',
+                WebkitBackgroundClip: 'text',
+                color: 'transparent',
+                textShadow: '2px 2px 4px rgba(0,0,0,0.2)'
+              }}
+            >
+              Expense Tracker
+            </Typography>
+          </Box>
 
           {user && (
             <Box sx={{ 
               display: 'flex', 
               alignItems: 'center',
-              gap: 2,
-              ml: 'auto'
+              gap: 3
             }}>
               <ThemeToggle />
-              <Typography sx={{ whiteSpace: 'nowrap' }}>
+              <Typography 
+                sx={{ 
+                  whiteSpace: 'nowrap',
+                  fontSize: '0.95rem',
+                  letterSpacing: '0.5px',
+                  color: 'rgba(255, 255, 255, 0.9)'
+                }}
+              >
                 Welcome, {user.name}
               </Typography>
               <Button 
                 color="inherit" 
                 onClick={logout}
                 variant="outlined"
+                size="small"
                 sx={{ 
-                  borderColor: 'white',
+                  borderColor: 'rgba(255,255,255,0.5)',
+                  borderWidth: '1.5px',
                   minWidth: 'auto',
+                  px: 2,
+                  py: 0.7,
                   whiteSpace: 'nowrap',
+                  textTransform: 'none',
+                  fontWeight: 500,
+                  letterSpacing: '0.5px',
                   '&:hover': {
-                    borderColor: 'white',
-                    backgroundColor: 'rgba(255, 255, 255, 0.1)'
+                    borderColor: 'rgba(255,255,255,0.9)',
+                    backgroundColor: 'rgba(255, 255, 255, 0.08)'
                   }
                 }}
               >
