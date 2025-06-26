@@ -124,7 +124,7 @@ npm start
 
 ## Author
 
-Your Name - [Your GitHub Profile](https://github.com/m0hitchaudhary)
+Your Name - [Mohit Chaudhary](https://github.com/m0hitchaudhary)
 
 ## License
 
